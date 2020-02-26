@@ -77,6 +77,13 @@ body {
   background-color: white;
   color: #000;
 }
+
+@media screen and (max-width: 600px) {
+  .page--item_left {
+    width: 100%;
+  }
+}
+
 .page--item_right {
   width: 50%;
   border-right: 1px solid black;
@@ -84,6 +91,12 @@ body {
   background-color: white;
   float: right;
   color: #000;
+}
+
+@media screen and (max-width: 600px) {
+  .page--item_right {
+    width: 100%;
+  }
 }
 
 .page--item_inner {
@@ -225,8 +238,22 @@ $duration: 30s;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+    float: left;
+    width: 100%;
+  }
+}
+
 .info p {
   font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .info p {
+    font-size: 1.7rem;
+  }
 }
 
 .info span {
