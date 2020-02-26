@@ -232,6 +232,11 @@ form {
   background-color: white;
   transition: 0.5s;
 }
+@media screen and (max-width: 600px) {
+  .btn {
+    width: 60vw;
+  }
+}
 form label {
   color: white;
   text-align: left;
