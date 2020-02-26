@@ -181,6 +181,11 @@ body {
   font-size: 20vw;
   padding: 4%;
 }
+@media screen and (max-width: 600px) {
+  .info h3 {
+    font-size: 40vw;
+  }
+}
 .info .col:nth-child(1) {
   border-right: 1px solid black;
 }
@@ -219,6 +224,18 @@ body {
     max-width: 100%;
     margin-bottom: 10%;
     margin-left: 10%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .col-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .info .col:nth-child(2) {
+    border-right: 1px solid white;
   }
 }
 .info p {
