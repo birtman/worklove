@@ -183,7 +183,7 @@ body {
 }
 @media screen and (max-width: 600px) {
   .info h3 {
-    font-size: 40vw;
+    font-size: 60vw;
   }
 }
 .info .col:nth-child(1) {
@@ -240,6 +240,7 @@ body {
 }
 .info p {
   font-size: 2rem;
+  font-weight: 700;
 }
 @media screen and (max-width: 600px) {
   .info p {
