@@ -126,7 +126,7 @@ body {
 }
 .ticker-wrap {
   bottom: 0;
-  width: 50%;
+  width: 0%;
   overflow: hidden;
   height: 13rem;
   background-color: white;
@@ -161,11 +161,11 @@ body {
 }
 .ticker--unten .ticker-wrap {
   bottom: 0;
-  width: 50%;
+  width: 0%;
   overflow: hidden;
+  overflow-x: hidden;
   height: 13rem;
   background-color: white;
-  padding-left: 100%;
   box-sizing: content-box;
   color: #000;
   border-bottom: none;
